@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <title>Harmony University Gallery</title>
+
+<style>
+
+   .cont {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   
+   .imgCont {
+      width: 45%;
+      height: 400px;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 0 10px 20px 10px;
+   }
+
+   img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+   }
+
+   h1 {
+      text-align: center;
+      font-family: "Georgia";
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: Black;
+   }
+
+   li {
+      float: left;
+      text-decoration: none;
+   }
+
+   li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+   }
+
+   li a:hover:not(.active) {
+      background-color: Gray;
+   }
+
+   .active {
+      background-color: SteelBlue;
+   }
+
+   p {
+      font-family: "Trebuchet MS";
+      width: 50%;
+      margin: auto;
+      text-align: justify;
+      padding-top: 2%;
+      padding-bottom: 7%;
+   }
+
+</style>
+</head>
+
+<body>
+
+   <nav>
+      <ul>
+         <li><a href="HTMLAS11.html">Home</a></li>
+         <li><a href="academics.html">Academics</a></li>
+         <li><a href="admission.html">Admission</a></li>
+         <li><a class="active" href="#gallery">Gallery</a></li>
+      </ul>
+   </nav>
+
+   <h1>Gallery</h1>
+   <p>This page showcases vibrant images capturing our diverse student community and the picturesque campus, providing prospective students and their families with an immersive glimpse into the vibrant atmosphere of our school.</p>
+
+   <div class="cont">
+      <div class="imgCont">
+         <img src="uni5.jpg" alt="Front Campus">
+      </div>
+      <div class="imgCont">
+         <img src="uni2.jpg" alt="Questions in class">
+      </div>
+      <div class="imgCont">
+         <img src="uni4.jpg" alt="West Campus">
+      </div>
+      <div class="imgCont">
+         <img src="uni3.jpg" alt="Students walking inside campus">
+      </div>
+   </div
+   
+</body>
+</html>

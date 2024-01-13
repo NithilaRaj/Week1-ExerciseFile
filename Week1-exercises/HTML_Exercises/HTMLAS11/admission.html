@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <title>Harmony University Admission</title>
+
+<style>
+
+   h1 {
+      text-align: center;
+      font-family: "Georgia";
+   }
+
+   ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: Black;
+   }
+
+   li {
+      float: left;
+      text-decoration: none;
+   }
+
+   li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+   }
+
+   li a:hover:not(.active) {
+      background-color: Gray;
+   }
+
+   .active {
+      background-color: SteelBlue;
+   }
+
+   #admissions p {
+      font-family: "Trebuchet MS";
+      width: 50%;
+      margin: auto;
+      text-align: justify;
+      padding-top: 2%;
+      padding-bottom: 3%;
+   }
+
+   form {
+      width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+      line-height: 2;
+   }
+
+</style>
+</head>
+
+<body>
+
+   <nav>
+      <ul>
+         <li><a href="HTMLAS11.html">Home</a></li>
+         <li><a href="academics.html">Academics</a></li>
+         <li><a class="active" href="#admission">Admission</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+   </nav>
+
+
+   <h1>Admissions</h1>
+   <div id="admissions"> 
+      <p>This page contains a form that covers the essential details, ensuring an easy and transparent enrollment process. Our aim is to simplify the application process, making it accessible to all students eager to begin their educational adventure at Harmony University.</p>
+   </div>
+
+   <form action="/action_page.php" id="form1">
+
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="eyear">Entry Year:</label><br>
+      <input type="text" id="eyear" name="eyear"><br>
+
+
+      <p>Choose your faculty:</p>
+
+      <input type="radio" id="business" name="cFacul" value="Business">
+      <label for="business">Business</label><br>
+      <input type="radio" id="arts" name="cFacul" value="Arts">
+      <label for="arts">Arts</label><br>
+      <input type="radio" id="engineering" name="cFacul" value="Engineering">
+      <label for="engineering">Engineering</label><br>
+      <input type="radio" id="science" name="cFacul" value="Science">
+      <label for="science">Science</label><br>
+      <input type="radio" id="law" name="cFacul" value="Law">
+      <label for="law">Law</label><br>
+
+      <p>What highschool courses have you taken:</p>
+      <input type="checkbox" id="english" name="tcourse" value="English">
+      <label for="english">English</label><br>
+      <input type="checkbox" id="calcvec" name="tcourse" value="Calculus and Vectors">
+      <label for="calcvec">Calculus and Vectors</label><br>
+      <input type="checkbox" id="physics" name="tcourse" value="Physics">
+      <label for="physics">Physics</label><br>
+      <input type="checkbox" id="chem" name="tcourse" value="Chemistry">
+      <label for="chem">Chemistry</label><br>
+      <input type="checkbox" id="psycology" name="tcourse" value="Psycology">
+      <label for="psycology">Psycology</label><br>
+      <input type="checkbox" id="adfunc" name="tcourse" value="Advanced Functions">
+      <label for="adfunc">Advanced Functions</label><br>
+      <input type="checkbox" id="drama" name="tcourse" value="Drama">
+      <label for="drama">Drama</label><br>
+
+      <input type="submit" value="Submit">
+      
+   </form>
+
+   
+</body>
+</html>
